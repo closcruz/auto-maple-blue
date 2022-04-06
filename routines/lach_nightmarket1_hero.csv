@@ -1,0 +1,4 @@
+$, target=move_tolerance, value=0.09
+$, target=buff_cooldown, value=175
+
+@, label=main

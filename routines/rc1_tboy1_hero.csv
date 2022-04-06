@@ -1,0 +1,21 @@
+$, target=move_tolerance, value=0.085
+$, target=buff_cooldown, value=175
+
+@, label=main
+*, x=0.168, y=0.413, frequency=1, skip=False, adjust=False
+    Shout
+    RagingBlows, direction=right, attacks=2, repetitions=2
+*, x=0.426, y=0.413, frequency=1, skip=False, adjust=False
+    RagingBlows, direction=right, attacks=2, repetitions=2
+*, x=0.671, y=0.413, frequency=1, skip=False, adjust=False
+    RisingRage
+*, x=0.903, y=0.413, frequency=1, skip=False, adjust=False
+    Shout
+    Walk, direction=left, duration=1
+    RagingBlows, direction=left, attacks=2, repetitions=2
+*, x=0.734, y=0.313, frequency=1, skip=False, adjust=False
+    RagingBlows, direction=left, attacks=2, repetitions=2
+*, x=0.535, y=0.413, frequency=1, skip=False, adjust=False
+    RagingBlows, direction=left, attacks=2, repetitions=2
+*, x=0.310, y=0.413, frequency=1, skip=False, adjust=False
+    RagingBlows, direction=left, attacks=2, repetitions=2

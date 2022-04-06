@@ -1,0 +1,50 @@
+$, target=move_tolerance, value=0.09
+$, target=buff_cooldown, value=175
+
+@, label=main
+*, x=0.620, y=0.199, frequency=1, skip=False, adjust=False
+    Shout
+    Panic, direction=right
+    Rupture, direction=left
+    RagingBlows, direction=right, attacks=4, repetitions=3
+    RagingBlows, direction=left, attacks=4, repetitions=3
+    Worldreaver
+*, x=0.892, y=0.186, frequency=1, skip=False, adjust=False
+    Shout
+    Rupture, direction=right
+    Panic, direction=left
+    RagingBlows, direction=right, attacks=3, repetitions=3
+    RagingBlows, direction=left, attacks=3, repetitions=3
+*, x=0.398, y=0.250, frequency=1, skip=False, adjust=False
+    Shout
+    Panic, direction=right
+    RagingBlows, direction=right, attacks=3, repetitions=4
+    RagingBlows, direction=left, attacks=3, repetitions=4
+    Rupture, direction=left
+*, x=0.140, y=0.360, frequency=1, skip=False, adjust=False
+    Shout
+    Panic, direction=left
+    Rupture, direction=right
+    RagingBlows, direction=left, attacks=3, repetitions=4
+    RagingBlows, direction=right, attacks=3, repetitions=4
+    Fall, distance=0.05
+*, x=0.380, y=0.433, frequency=1, skip=False, adjust=False
+    Worldreaver
+    Shout
+    Panic, direction=right
+    Rupture, direction=right
+    RagingBlows, direction=right, attacks=4, repetitions=4
+    RagingBlows, direction=left, attacks=4, repetitions=4
+*, x=0.557, y=0.403, frequency=1, skip=False, adjust=False
+    Shout
+    Panic, direction=left
+    Rupture, direction=right
+    RagingBlows, direction=left, attacks=3, repetitions=3
+    RagingBlows, direction=right, attacks=4, repetitions=3
+*, x=0.795, y=0.403, frequency=1, skip=False, adjust=False
+    Shout
+    Worldreaver
+    Rupture, direction=left
+    Panic, direction=left
+    RagingBlows, direction=left, attacks=3, repetitions=3
+    RagingBlows, direction=right, attacks=3, repetitions=4

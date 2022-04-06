@@ -1,0 +1,22 @@
+$, target=move_tolerance, value=0.09
+$, target=buff_cooldown, value=175
+
+@, label=main
+*, x=0.791, y=0.198, frequency=1, skip=False, adjust=False
+    RagingBlows, direction=right, attacks=3, repetitions=3
+    RagingBlows, direction=left, attacks=3, repetitions=3
+*, x=0.571, y=0.198, frequency=1, skip=False, adjust=False
+    RagingBlows, direction=left, attacks=2, repetitions=3
+    RagingBlows, direction=right, attacks=2, repetitions=3
+*, x=0.395, y=0.249, frequency=1, skip=False, adjust=False
+    RagingBlows, direction=right, attacks=2, repetitions=3
+    RagingBlows, direction=left, attacks=2, repetitions=3
+*, x=0.153, y=0.328, frequency=1, skip=False, adjust=False
+    RagingBlows, direction=right, attacks=2, repetitions=3
+    RagingBlows, direction=left, attacks=2, repetitions=3
+*, x=0.486, y=0.401, frequency=1, skip=False, adjust=True
+    RagingBlows, direction=right, attacks=2, repetitions=3
+    RagingBlows, direction=left, attacks=2, repetitions=3
+*, x=0.802, y=0.401, frequency=1, skip=False, adjust=True
+    RagingBlows, direction=left, attacks=2, repetitions=3
+    RagingBlows, direction=right, attacks=2, repetitions=3
